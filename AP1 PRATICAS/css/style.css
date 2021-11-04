@@ -1,0 +1,152 @@
+body{
+    background: url(bg.png);
+}
+
+main{
+    display:flex;
+}
+
+h1{
+    font-size: 38px;
+}
+
+p{
+    font-size: 24px;
+}
+
+h1, p{
+    width: 450px;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: auto;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px;
+}
+
+div1{
+    padding-bottom: 300px;
+}
+
+img{
+    width: 480px; 
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+button{
+    width: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    border: 0;
+    background-color:black;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.Texto{
+display: flex;
+align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0%;
+}
+
+header{
+    padding: 40px 0;
+}
+.menu{
+    width: 100%;
+    text-align: center;
+}
+
+.menu a{
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.texto2{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+h2{
+    width: 400px;
+    text-align: center;
+}
+
+.texto2 button2{
+    display: block;
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size: 18px;
+    border: 0;
+    background-color:black;
+    height: 30px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.texto2 p3{
+    width: 500px;
+    margin-top: 50px;
+    clear: left;
+}
+
+.texto2 p4{
+    width: 500px;
+    margin-top: 50px;
+}
+
+.texto2 div2 {
+      height: 400px; 
+      width: 400px;
+      padding-right: 70px;
+}
+
+.texto2 div5{
+    margin-left: 100px;
+    margin-top: 150px;
+    height: 400px; 
+    width: 400px;
+}
+
+h3{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+form{
+    text-align: center;
+    height: 400px;
+}
+
+div6{
+    display: flex;
+    width: 1900px;
+}
+
+input{
+    width: 1800px;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 24px;
+}

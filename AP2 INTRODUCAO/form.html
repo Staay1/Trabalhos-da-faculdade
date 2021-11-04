@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site de Registro</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+    <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">SUSTENT</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Principal</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">Sobre</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Serviços</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Registre-se</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-container">
+      <h5>Registre-se aqui</h5>
+      <form id="register-form">
+          <div class="half-box spacing">
+            <label for="name">Nome</label>
+            <input type="text" name="nome" id=name placeholder="Digite seu nome">
+          </div>
+          <div class="half-box">
+            <label for="lastname">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+          </div>
+          <div class="half-box spacing">
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+          </div>
+          <div class="half-box">
+            <label for="passconfirmation">Confirme sua senha</label>
+            <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Digite novamente a senha">
+          </div>
+          <div class="full-box">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+          </div>
+          <div class="full-box">
+            <input type="checkbox" name="agreement" id="agreement-label">
+            <label for="checkbox" id="agreement-label">Eu li e aceito os <a5>termos de uso</a5></label>
+          </div>
+          <div class="full-box">
+            <input type="submit" id="btn-submit" value="Registrar-se">
+          </div>
+          <p class="error-validation template"></p>
+        <script>src="js/script.js"</script>
+        <script>src="js/app.js"</script>
+      </form>
+    </div>
+    </body>
+    </html>
