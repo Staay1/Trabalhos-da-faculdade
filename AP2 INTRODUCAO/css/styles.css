@@ -699,6 +699,7 @@ body {
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 200px;
   border-radius: 10px;
   padding: 25px;
 }
@@ -707,6 +708,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
 input, label {
@@ -790,4 +792,46 @@ label {
 
   .template {
     display: none;
+  }
+
+  .titulo1 {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+  }
+  
+  .texto1 {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 28px;
+  }
+
+  .alltext1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+  }
+
+  .titulo2 {
+    color: white;
+    text-align: center;
+    font-size: 52px;
+  }
+
+  .texto2 {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 28px;
+    line-height: 150%;
+  }
+
+  .alltext2 {
+    margin-bottom: 200px;
   }
